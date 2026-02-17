@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zukan Editor | 偽物図鑑</title>
+    <meta name="description" content="偽物図鑑 - 観察記録の公開と分析">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Zukan Editor</a>
+                <div class="nav-links">
+                    <a href="index.html" class="active">Home</a>
+                    <a href="fake.html">Fake Zukan</a>
+                    <a href="#">About</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Zukan Editor</h1>
+                <p>観察、記録、そして分析。<br>デジタル空間に潜む「偽物」たちの生態を記録するデータベース。</p>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2>Latest Articles</h2>
+            <div id="article-list" class="grid">
+                <!-- Data will be injected here via JavaScript -->
+                <div class="card loading-card">
+                    <div class="card-date">Loading...</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Zukan Editor. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
